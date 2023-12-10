@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Josefin+Sans&family=Kanit:ital,wght@1,200&family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins' sans-serif;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+ul li a:hover{
+    color:#ff6a33;
+}
+
+ul li {
+    list-style: none;
+    margin-top: 40px;
+}
+ul{
+    margin-top: 100px;
+}
+.nav-bar{
+    background-color: #262626;
+    height: 100vh;
+    width: 20vw;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+.logo{
+    height: 20%;
+    font-size: 3rem;
+    color: whitesmoke;
+    text-align: center;
+    padding-top : 70px;
+    letter-spacing: 5px;
+    position: relative;
+}
+.first-letter{ 
+    font-weight: 700;
+    font-family: 'clicker script',cursive ;
+    color:#ff6a33;
+}
+
+.logo .first-letter::before{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-bottom: 5px solid #ff6a33;
+    border-left: 5px solid #ff6a33;
+    bottom: 10px;
+    left: 30px;
+}
+.logo .first-letter::after{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-top: 5px solid #ff6a33;
+    border-right: 5px solid #ff6a33;
+    top: 60px;
+    right: 35px;
+}
+
+
+.second-letter{
+    color:white;
+}
+.fa-solid{
+    margin-right: 30px;
+}
+.fa-comments{
+    margin-right: 25px;
+}
+.fa-user{
+    margin-right: 32px;
+}
+ul{
+    font-size: 1.2rem;
+    margin-left: 75px;
+}
+
+/* header part ends by now  */
+
+.all-stuff{
+    margin-left: 20vw;
+    width: 78.9vw;
+    height: auto;
+    background-color: #171717;
+    color:white;
+}
+.main-container{
+    padding-top: 110px;
+    width: 90%;
+    margin: auto;
+}
+.btn{
+    margin-top: 100px;
+    
+}
+.btn a {
+    text-decoration: none;
+    color:white;
+    font-size: 1.3rem;
+    padding: 15px 50px;
+    background-color: #ff6a33;
+    border-radius: 15px;
+    margin: 0px 20px;
+}
+
+.buttons-of-two{
+    display: flex;
+    margin-left: -15px;
+    margin-top: -40px;
+}
+
+.skills-known-other-info{
+    display: flex;
+}
+.heading-of-aboutMe{
+    width: auto;
+    font-size: 3rem;
+    margin-bottom: 2px;
+}
+.introduction-myName{
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.occupation{
+    font-size: 2rem;
+    color: #ff6a33;
+}
+.aboutMe-in-oneline{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.skills-known-other-info{
+    margin-top: 50px;
+}
+.birth-day{
+    margin-right: 20px;
+}
+.personal-info{
+    width: 60%;
+    margin-top: 20px;
+}
+
+.email-box{
+    margin-left: 90px;
+}
+.age{
+    margin-left: 175px;
+}
+.phone-num{
+    margin-left: 258px;
+}
+.freelancer{
+    margin-left: 232px;
+}
+.bolding{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.line{
+    height: 1.5vh;
+    width: 28vw;
+    background-color: #262626;
+    border-radius: 5px;
+}
+.subject{
+    display: inline-block;
+}
+.percent-html{
+    margin-left: 325px;
+}
+.percent-css{
+    margin-left: 345px;
+}
+.percent-js{
+    margin-left: 291px;
+}
+.percent-pyt{
+    margin-left: 320px;
+}
+.html-filling{
+    height: 1.5vh;
+    border-radius: 5px;
+    width:90%;
+    background-color: #ff6a33;
+}
+.css-filling{
+    height: 1.5vh;
+    border-radius: 5px;
+    width:85%;
+    background-color: #ff6a33;
+}
+.js-filling{
+    height: 1.5vh;
+    border-radius: 5px;
+    width:80%;
+    background-color: #ff6a33;
+}
+.Python-filling{
+    height: 1.5vh;
+    border-radius: 5px;
+    width:75%;
+    background-color: #ff6a33;
+}
+.subject-known{
+    margin-bottom: 50px;
+}
+
+.underline-one{
+    width: 5vw;
+    height: 0.5vh;
+    background-color: #ff6a33;
+}
+.underline-two{
+    width: 3vw;
+    height: 0.5vh;
+    background-color: #ff6a33;
+    margin-top: 5px;
+    margin-bottom: 60px;
+}
+
+
+/* eduction-experience Starts */
+
+.eduction-experience{
+    width: 90%;
+    color:  white;
+    display: flex;
+    margin: auto;
+    margin-top: 10vh;
+
+}
+.education-container{
+    width: 50%;
+    background-color: #262626;
+    border-radius: 10px;
+    margin:10px;
+    border: 1px solid grey;
+}
+.experience-container{
+    width: 50%;
+    background-color: #262626;
+    border-radius: 10px;
+    margin:10px;
+    border: 1px solid grey;
+}
+.education{
+    font-size: 2.4rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 15px;
+}
+.experience{
+    font-size: 2.4rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 15px;
+}
+.first-container{
+    margin-left: 40px;
+    margin-bottom: 7vh;
+}
+
+
+.year{
+    font-size: 1.2rem;
+    line-height: 2.6rem;
+}
+
+.fa-calendar{
+    margin-right: 10px;
+}
+
+.branch-ofstudy{
+    font-size: 1.5rem;
+    line-height: 3.9rem;
+}
+.about-school{
+    font-size: 1.1rem;
+    width: 95%;
+    word-spacing: 5px;
+}

@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Josefin+Sans&family=Kanit:ital,wght@1,200&family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins' sans-serif;
+}
+
+.header-container {
+    display: flex;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover {
+    color: #ff6a33;
+}
+
+.nav-bar ul li a.active {
+    columns: #ff6a33;
+}
+
+ul li {
+    list-style: none;
+    margin-top: 40px;
+}
+
+ul {
+    margin-top: 100px;
+}
+
+.nav-bar {
+    background-color: #262626;
+    height: 100vh;
+    width: 20%;
+    border-right: 1px solid #5d5c5c;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    height: 20%;
+    font-size: 3rem;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 70px;
+    letter-spacing: 5px;
+    position: relative;
+}
+
+.first-letter {
+    font-weight: 700;
+    font-family: 'clicker script', cursive;
+    color: #ff6a33;
+}
+
+.logo .first-letter::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-bottom: 5px solid #ff6a33;
+    border-left: 5px solid #ff6a33;
+    bottom: 10px;
+    left: 30px;
+}
+
+.logo .first-letter::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-top: 5px solid #ff6a33;
+    border-right: 5px solid #ff6a33;
+    top: 60px;
+    right: 35px;
+}
+
+.second-letter {
+    color: white;
+}
+
+.fa-solid {
+    margin-right: 30px;
+}
+
+.fa-comments {
+    margin-right: 25px;
+}
+
+.fa-user {
+    margin-right: 32px;
+}
+
+ul {
+    font-size: 1.2rem;
+    margin-left: 75px;
+}
+
+/* header part ends by now  */
+.main-container {
+    margin-left: 304px;
+    height: 130vh;
+    padding-left: 30px;
+    padding-top: 75px;
+    width: 81%;
+    background-color: #171717;
+    color: white;
+}
+
+.contect-heading {
+    font-size: 3rem;
+}
+
+.empty1 {
+    width: 6vw;
+    height: 0.3rem;
+    background-color: #ff6a33;
+}
+
+.empty2 {
+    width: 3vw;
+    height: 0.3rem;
+    background-color: #ff6a33;
+    margin-top: 0.5vh;
+}
+
+.box1 {
+    width: 15vw;
+    height: 15vh;
+    line-height: 30px;
+}
+
+.box2 {
+    width: 15vw;
+    height: 15vh;
+    line-height: 30px;
+}
+
+.box3 {
+    width: 15vw;
+    height: 15vh;
+    line-height: 30px;
+}
+
+.box4 {
+    width: 15vw;
+    height: 15vh;
+    line-height: 30px;
+}
+
+.secondPart-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    text-align: center;
+    margin: 5vh 0vw;
+}
+
+.question-heading {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 5vh;
+}
+
+.small-one {
+    font-size: 1.6rem;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 2vh;
+}
+
+.fa-phone-flip {
+    margin-left: 33px;
+    font-size: 1.5rem;
+    padding-top: 10px;
+    color: #ff6a33;
+}
+
+.mini-statement {
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.phone-num {
+    font-size: 1.1rem;
+}
+
+.fa-envelope {
+    margin-left: 33px;
+    font-size: 1.5rem;
+    padding-top: 10px;
+    color: #ff6a33;
+}
+
+.fa-location-dot {
+    margin-left: 33px;
+    font-size: 1.5rem;
+    padding-top: 10px;
+    color: #ff6a33;
+}
+
+.fa-globe {
+    margin-left: 33px;
+    font-size: 1.5rem;
+    padding-top: 10px;
+    color: #ff6a33;
+}
+
+/* ended second part */
+
+.send-me {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 5vh;
+    text-transform: capitalize;
+}
+
+.iamVery-Responsive {
+    font-size: 1.6rem;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 2vh;
+}
+
+/* form started */
+
+.form{
+    margin-top: 5vh;
+    margin-left: 20px;
+    margin-bottom: 5vh;
+}
+
+#name{
+    width: 35vw;
+    height: 8vh;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    padding: 20px;
+    font-size: 1.2rem;
+    margin-right: 30px;
+    background-color: #262626;
+    color: white;
+}
+
+#email{
+    width: 35vw;
+    height: 8vh;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    padding: 20px;
+    font-size: 1.2rem;
+    background-color: #262626;
+    color: white;
+}
+
+#subject{
+    margin-top: 4vh;
+    width: 72vw;
+    height: 8vh;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    padding: 20px;
+    font-size: 1.2rem;
+    background-color: #262626;
+    color: white;
+}
+
+#message{
+    margin-top: 4vh;
+    width: 72vw;
+    height: 15vh;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    padding: 20px;
+    font-size: 1.2rem;
+    background-color: #262626;
+    color: white;
+}
+
+#submit-btn{
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-right: 5vw;
+    color: white;
+    background-color: #ff6a33;
+    border-radius: 20px;
+    padding: 16px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
